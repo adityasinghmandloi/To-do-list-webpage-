@@ -24,7 +24,7 @@
 			<input 
 				type="submit"
 				id="new-task-submit" 
-				value="Add task" />
+				value="Add New Task" />
 		</form>
 	</header>
 	<main>
@@ -32,22 +32,24 @@
 			<h2>Tasks</h2>
 
 			<div id="tasks">
+				
 
 				<div class="task">
+					
 					<div class="content">
 						<input 
 							type="text" 
 							class="text" 
-							value="New task"
+							value="Task"
 							readonly>
 					</div>
 					<div class="actions">
 						<button class="edit">Edit</button>
 						<button class="delete">Delete</button>
                         <button class="complete">Complete</button>
+						
 					</div>
                     <!-- Add this inside each task element -->
-
 					<div class="details">
 						<label for="priority">Priority:</label>
 						<select id="priority">
@@ -58,9 +60,10 @@
 						<label for="due-date">Due Date:</label>
 						<input type="date" id="due-date">
 					</div>
-
+                  
 
 				</div> 
+				
 
 			</div>
 		</section>
