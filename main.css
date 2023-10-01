@@ -203,8 +203,8 @@ main {
 
 /* Style for the "Complete" button when task is completed */
 .task.completed .complete {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #d607a6;
+  color: rgb(233, 37, 37);
 }
 
 .task .actions .completed {
@@ -213,21 +213,40 @@ main {
 	-webkit-text-fill-color: transparent;
 }
 
+/* Style for priority label */
+.task .details label[for="priority"] {
+	font-weight: bold;
+	margin-right: 5px;
+  }
+  
+  /* Style for priority select field */
+  .task .details select.priority {
+	width: 100px;
+	padding: 3px;
+	margin-right: 10px;
+	border: 1px solid #dc1010;
+	border-radius: 4px;
+	background-color: #e92020;
+	color: #333; /* Text color for priority */
+  }
+  
 
-
-.complete{
+  .complete{
 	color: #2aa61f;
 	/* background-color: #491ab8; */
   }
 
 
 #priority{
-	color:rgb(208, 24, 100);
+	color:#2aa61f;
 	background-color: #199fcb;
 	background-color: DodgerBlue;
 }
 #priority.selected{
-	color:rgb(208, 24, 100);
+	color:#d607a6;
 	background-color: #199fcb;
 	background-color: DodgerBlue;
 }
+
+
+
