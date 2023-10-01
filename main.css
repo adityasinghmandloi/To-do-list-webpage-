@@ -212,3 +212,22 @@ main {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
+
+
+.complete{
+	color: #2aa61f;
+	/* background-color: #491ab8; */
+  }
+
+
+#priority{
+	color:rgb(208, 24, 100);
+	background-color: #199fcb;
+	background-color: DodgerBlue;
+}
+#priority.selected{
+	color:rgb(208, 24, 100);
+	background-color: #199fcb;
+	background-color: DodgerBlue;
+}
